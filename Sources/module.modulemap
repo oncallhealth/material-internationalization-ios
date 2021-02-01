@@ -1,4 +1,8 @@
 module MDFTextAccessibility {
   requires objc, objc_arc
-  header "MDFInternationalization.h"
+  header "MDFRTL.h"
+  header "NSLocale+MaterialRTL.h"
+  header "NSString+MaterialBidi"
+  header "UIImage+MaterialRTL.h"
+  header "UIView+MaterialRTL.h"
 }
