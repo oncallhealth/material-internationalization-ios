@@ -14,7 +14,6 @@ let package = Package(
         .target(
             name: "MDFInternationalization",
             path: "Sources",
-            exclude: ["Info.plist"],
-            publicHeadersPath: ".")
+            exclude: ["Info.plist"])
     ]
 )
